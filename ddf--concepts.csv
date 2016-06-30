@@ -1,0 +1,12 @@
+concept,name,concept_type
+name,Name,string
+year,Year,time
+country,Country,entity_domain
+hourly_compensation_costs,Hourly compensation costs (1 + 2 + 3),measure
+total_hourly_direct_pay,Total hourly direct pay (1+2),measure
+total_hourly_pay_for_time_worked,Total hourly pay for time worked (1),measure
+total_hourly_directly_paid_benefits,Total hourly directly paid benefits (2),measure
+hourly_social_insurance_expenditures_and_labour_related_taxes,Hourly social insurance expenditures and labour-related taxes (3),measure
+index_of_hourly_compensation_costs_us_100,Index of hourly compensation costs (US=100),measure
+total_hourly_direct_pay_as_percentage_of_total_hourly_compensation_costs,Total hourly direct pay as % of total hourly compensation costs,measure
+hourly_social_insurance_expenditures_and_labour_related_taxes_as_percentage_of_total_hourly_compensation_costs,Hourly social insurance expenditures and labour-related taxes as % of total hourly compensation costs,measure
