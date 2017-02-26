@@ -1,0 +1,209 @@
+{
+    "name": "ddf--ilo--kilm_wage_compensation",
+    "language": {
+        "id": "en"
+    },
+    "resources": [
+        {
+            "path": "ddf--concepts.csv",
+            "name": "ddf--concepts",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "concept"
+                    },
+                    {
+                        "name": "name"
+                    },
+                    {
+                        "name": "concept_type"
+                    }
+                ],
+                "primaryKey": "concept"
+            }
+        },
+        {
+            "path": "ddf--datapoints--hourly_compensation_costs--by--country--year.csv",
+            "name": "ddf--datapoints--hourly_compensation_costs--by--country--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "hourly_compensation_costs"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--hourly_social_insurance_expenditures_and_labour_related_taxes--by--country--year.csv",
+            "name": "ddf--datapoints--hourly_social_insurance_expenditures_and_labour_related_taxes--by--country--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "hourly_social_insurance_expenditures_and_labour_related_taxes"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--hourly_social_insurance_expenditures_and_labour_related_taxes_as_percentage_of_total_hourly_compensation_costs--by--country--year.csv",
+            "name": "ddf--datapoints--hourly_social_insurance_expenditures_and_labour_related_taxes_as_percentage_of_total_hourly_compensation_costs--by--country--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "hourly_social_insurance_expenditures_and_labour_related_taxes_as_percentage_of_total_hourly_compensation_costs"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--index_of_hourly_compensation_costs_us_100--by--country--year.csv",
+            "name": "ddf--datapoints--index_of_hourly_compensation_costs_us_100--by--country--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "index_of_hourly_compensation_costs_us_100"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--total_hourly_direct_pay--by--country--year.csv",
+            "name": "ddf--datapoints--total_hourly_direct_pay--by--country--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "total_hourly_direct_pay"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--total_hourly_direct_pay_as_percentage_of_total_hourly_compensation_costs--by--country--year.csv",
+            "name": "ddf--datapoints--total_hourly_direct_pay_as_percentage_of_total_hourly_compensation_costs--by--country--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "total_hourly_direct_pay_as_percentage_of_total_hourly_compensation_costs"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--total_hourly_directly_paid_benefits--by--country--year.csv",
+            "name": "ddf--datapoints--total_hourly_directly_paid_benefits--by--country--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "total_hourly_directly_paid_benefits"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--total_hourly_pay_for_time_worked--by--country--year.csv",
+            "name": "ddf--datapoints--total_hourly_pay_for_time_worked--by--country--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "total_hourly_pay_for_time_worked"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--entities--country.csv",
+            "name": "ddf--entities--country",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "name"
+                    }
+                ],
+                "primaryKey": "country"
+            }
+        }
+    ]
+}
